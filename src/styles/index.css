@@ -36,7 +36,7 @@
     padding: 0 1.7rem;
 }
 
-a.active {
+.header-area .main-menu .navbar-nav .active {
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -60,7 +60,6 @@ a.active {
     font-weight: 300;
     font-family: "Poppins";
     padding-top: 20%;
-    padding-left: 2px;
     font-size: 5vw;
 }
 
@@ -75,7 +74,8 @@ a.active {
     font-weight: 400;
     font-family: "Poppins";
     padding: 2px;
-    font-size: 7vw;
+    padding-left: 0px;
+    font-size: 6vw;
 }
 
 .banner-highlights {
