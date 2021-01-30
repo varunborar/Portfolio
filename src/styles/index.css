@@ -67,7 +67,7 @@
 .banner-title-text::after {
     content: "";
     height: 2px;
-    width: 19vw;
+    width: 38vw;
     background: black;
     display: inline-block;
     margin-left: 4%;
@@ -80,14 +80,14 @@
     font-family: "Poppins";
     padding: 2px;
     padding-left: 0px;
-    font-size: 7vw;
+    font-size: 9vw;
 }
 
 .banner-highlights {
     font-weight: 300;
     font-family: "Poppins";
     padding: 2px;
-    font-size: 1vw;
+    font-size: 6px;
 }
 
 .button {
