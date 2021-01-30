@@ -67,7 +67,7 @@
 .banner-title-text::after {
     content: "";
     height: 2px;
-    width: 17vw;
+    width: 19vw;
     background: black;
     display: inline-block;
     margin-left: 4%;
