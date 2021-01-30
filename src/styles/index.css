@@ -42,14 +42,14 @@
     padding: 0 1.7rem;
 }
 
-.active {
+.nav-item.nav-link {
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-.nav-item:hover {
+.nav-item a:hover {
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
