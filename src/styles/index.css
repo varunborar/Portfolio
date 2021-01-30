@@ -75,7 +75,7 @@
     font-family: "Poppins";
     padding: 2px;
     padding-left: 0px;
-    font-size: 6vw;
+    font-size: 5vw;
 }
 
 .banner-highlights {
@@ -109,8 +109,43 @@
 
 /* Banner */
 
+
+/* Footer */
+
 footer {
     background-color: grey;
-    height: 120px;
+    height: 80px;
     width: 100%;
 }
+
+.social-media a,
+.social-media a:active {
+    color: transparent;
+    outline: none;
+}
+
+.social-media-text {
+    color: white;
+    text-align: center;
+    font-family: "Poppins";
+    padding: 4px;
+}
+
+.social-media-icons {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media .icon {
+    color: white;
+    padding: 4px;
+    margin: 4px 8px;
+}
+
+.social-media .icon:hover {
+    color: #b1b0b0;
+}
+
+
+/* Footer */
