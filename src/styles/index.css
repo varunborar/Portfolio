@@ -37,14 +37,14 @@
 }
 
 .header-area .main-menu .navbar-nav .active {
-    background: var(--gradient-color);
+    background: linear-gradient(90deg, #00FF2A 0%, #00FFF6 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 .nav-item a:hover {
-    background: var(--gradient-color);
+    background: linear-gradient(90deg, #00FF2A 0%, #00FFF6 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
