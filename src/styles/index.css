@@ -6,6 +6,7 @@
 @import url("styles/partials/_variables.css");
 * {
     outline: none;
+    overflow-x: hidden;
 }
 
 
@@ -113,13 +114,13 @@
     font-weight: 300;
     font-family: "Poppins";
     padding-top: 20%;
-    font-size: 5vw;
+    font-size: 28px;
 }
 
 .banner-title-text::after {
     content: "";
     height: 2px;
-    width: 22vw;
+    width: 120px;
     background: black;
     display: inline-block;
     margin-left: 4%;
@@ -132,14 +133,15 @@
     font-family: "Poppins";
     padding: 2px;
     padding-left: 0px;
-    font-size: 6vw;
+    font-size: 36px;
 }
 
-.banner-highlights {
+.banner-highlight {
     font-weight: 300;
     font-family: "Poppins";
     padding: 2px;
-    font-size: 6px;
+    font-size: 24pxpx;
+    padding: 16px 16px 16px 0px;
 }
 
 .button {
@@ -167,56 +169,7 @@
 /* Main site */
 
 
-/* Footer */
-
-footer {
-    background-color: #555;
-    height: 80px;
-    width: 100%;
-}
-
-.social-media a,
-.social-media a:active {
-    color: transparent;
-    outline: none;
-}
-
-.social-media-text {
-    color: white;
-    text-align: center;
-    font-family: "Poppins";
-    padding: 4px;
-}
-
-.social-media-icons {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.social-media .icon {
-    color: white;
-    padding: 4px;
-    margin: 4px 8px;
-}
-
-.social-media .icon:hover {
-    color: #b1b0b0;
-}
-
-
-/* Footer */
-
-
 /* About Site*/
-
-.container {
-    /* display: flex;
-    align-items: center;
-    align-content: center; */
-    margin: 30px;
-    padding: 0px;
-}
 
 .section {
     width: 100%;
@@ -466,3 +419,119 @@ h6 {
 
 
 /* Contact Site */
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.contact-container {
+    display: block;
+    width: 100%;
+}
+
+.social-media {
+    margin: 12px;
+    padding: 4px;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+
+a :visited {
+    text-decoration: none;
+}
+
+a :hover {
+    color: #00FFF6;
+}
+
+.sm-card {
+    width: 60px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+    margin: 6px;
+    font-family: "Poppins";
+    font-size: 12px;
+}
+
+.icon {
+    margin: 4px;
+    padding: 4px;
+}
+
+#get-in-touch {
+    font-size: 32px;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+#get-in-touch::before {
+    content: "";
+    position: relative;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: grey;
+    top: 50px;
+    left: calc(50% - 60px);
+}
+
+#get-in-touch::after {
+    content: "";
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #00FF2A;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.contact-form {
+    margin: 12px;
+    padding: 8px;
+    outline: none;
+    display: block;
+}
+
+.form {
+    margin: 2px;
+    padding: 4px;
+    left: 35%;
+}
+
+#name {
+    width: 320px;
+    border-radius: 6px;
+    border: 1px;
+    background-color: #EEE;
+}
+
+#email {
+    width: 320px;
+    border-radius: 6px;
+    border: 1px;
+    background-color: #EEE;
+}
+
+#message {
+    width: 320px;
+    height: 240px;
+    text-align: start;
+    text-align: top;
+    border-radius: 6px;
+    border: 1px;
+    background-color: #EEE;
+}
+
+#submit {
+    margin: 4px;
+    padding: 6px;
+    border-radius: 6px;
+    border: none;
+    font-family: "Poppins";
+    background-color: #EEE;
+}
