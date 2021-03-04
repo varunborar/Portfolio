@@ -57,6 +57,10 @@
 
 /* Banner */
 
+.site-main {
+    padding: 10px;
+}
+
 .banner-title-text {
     font-weight: 300;
     font-family: "Poppins";
