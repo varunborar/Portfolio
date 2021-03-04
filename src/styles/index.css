@@ -6,7 +6,6 @@
 @import url("styles/partials/_variables.css");
 html {
     outline: none;
-    overflow-x: hidden;
 }
 
 
