@@ -47,13 +47,3 @@ window.addEventListener('load', type);
 
 
 // About
-
-
-function skillScroll() {
-    var skillContainer = document.getElementById('skill-container');
-
-    skillContainer.scrollBy(1, 0);
-
-
-}
-window.addEventListener('load', skillScroll);
