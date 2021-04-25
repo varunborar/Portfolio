@@ -20,31 +20,31 @@
 #logo path:nth-child(1) {
     stroke-dasharray: 592;
     stroke-dashoffset: 592;
-    animation: preLoadAnimation 2s ease forwards;
+    animation: preLoadAnimation 8s ease forwards;
 }
 
 #logo path:nth-child(2) {
     stroke-dasharray: 844;
     stroke-dashoffset: 844;
-    animation: preLoadAnimation 2s ease forwards 100ms;
+    animation: preLoadAnimation 8s ease forwards 100ms;
 }
 
 #logo path:nth-child(3) {
     stroke-dasharray: 410;
     stroke-dashoffset: 410;
-    animation: preLoadAnimation 2s ease forwards 200ms;
+    animation: preLoadAnimation 8s ease forwards 200ms;
 }
 
 #logo path:nth-child(4) {
     stroke-dasharray: 703.46;
     stroke-dashoffset: 703.46;
-    animation: preLoadAnimation 2s ease forwards 300ms;
+    animation: preLoadAnimation 8s ease forwards 300ms;
 }
 
 #logo path:nth-child(5) {
     stroke-dasharray: 704;
     stroke-dashoffset: 704;
-    animation: preLoadAnimation 2s ease forwards 400ms;
+    animation: preLoadAnimation 8s ease forwards 400ms;
 }
 
 @keyframes preLoadAnimation {
