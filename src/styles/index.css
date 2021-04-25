@@ -68,7 +68,7 @@
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         }
         .flip-card-back {
-            background-color: rgba(68, 68, 68, 0.4) !important;
+            background-color: rgb(68, 68, 68) !important;
             color: whitesmoke !important;
             transform: rotateY(180deg);
             box-shadow: 0px 4px 8px 0px rgba(0, 255, 42, 0.2);
@@ -488,7 +488,15 @@
     /* About Site*/
     
     .about {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
+        -ms-overflow-style: none !important;
+        /* IE and Edge */
+        scrollbar-width: none !important;
+        /* Firefox */
+    }
+    
+    .about::-webkit-scrollbar {
+        display: none !important;
     }
     
     .section {
@@ -769,7 +777,7 @@
     }
     
     .flip-card-back {
-        background-color: rgba(238, 238, 238, 0.4);
+        background-color: rgb(238, 238, 238);
         color: black;
         transform: rotateY(180deg);
         box-shadow: 0px 4px 8px 0px rgba(255, 255, 255, 0.1);
@@ -823,7 +831,7 @@
         align-items: justify;
         position: relative;
         margin-top: 36px;
-        overflow-x: scroll;
+        overflow-x: hidden;
     }
     
     .col-md-3,
@@ -1123,8 +1131,6 @@
     /* Create three equal columns that floats next to each other */
     
     .projects .column {
-        float: left;
-        width: 33.33%;
         display: none;
         /* Hide columns by default */
     }
@@ -1139,6 +1145,10 @@
     
     .project-img {
         margin: 10px;
+    }
+    
+    .projects a {
+        animation: elastic-snap 4s ease-in-out forwards;
     }
     
     .projects .content {
