@@ -1154,10 +1154,10 @@
     .projects .content {
         background-color: #eee;
         margin: 0px 20px;
-        min-width: none;
-        min-height: none;
+        min-width: inherit;
+        min-height: inherit;
         max-height: inherit;
-        max-width: inherit;
+        max-width: 80vw;
         display: inline-block;
         border-radius: 36px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
