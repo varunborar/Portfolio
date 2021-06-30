@@ -974,11 +974,19 @@
     .other-designs .section-header {
         margin: 36px;
     }
+    /* .container-carousel input {
+        background-color: #00FFF6;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    } */
     
     .design-btn {
-        border: 0.5px solid;
-        color: #00FFF6;
+        border: none;
         position: relative;
+        color: transparent;
+        background-color: #00FFF6;
     }
     
     .design-img {
